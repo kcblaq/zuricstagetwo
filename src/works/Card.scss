@@ -1,0 +1,32 @@
+.card {
+  height: 15rem;
+  width: 14rem;
+  border: 1px solid crimson;
+  position: relative;
+
+ .top{
+   color: black;
+      // background-color: rgb(17, 17, 17);
+      height: 20%;
+      position: absolute;
+      top: 0;
+      width: 100%;
+ }
+  .footer{
+      color: white;
+      background-color: black;
+      height: 20%;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+  }
+  .body{
+   color: black;
+      // background-color: crimson;
+      height:40%;
+      position: absolute;
+      bottom: 30;
+      top: 5rem;
+      width: 100%;
+  }
+}

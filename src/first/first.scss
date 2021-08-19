@@ -1,0 +1,64 @@
+.main {
+  position: relative;
+
+  color: white;
+
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    font-size: 1.5rem;
+      background-color: #000;
+      color: black;
+    // margin-bottom: 4rem;
+    // background-color: rgb(214, 209, 209);
+    box-shadow: inset 0 -3em 3em rgba(95, 20, 20, 0.1),
+      0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    .logo {
+      margin-left: 1rem;
+      color: white;
+    }
+    .menu-items {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      font-family: acme, arial, helvetica, sans-serif;
+
+      ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+        a {
+          text-decoration: none;
+          color: white;
+          li {
+            list-style: none;
+            margin: 2rem;
+            cursor: pointer;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+  .intro {
+    position: relative;
+    top: 1rem;
+    margin: 0 5rem;
+    left: 50%;
+    bottom: 5rem;
+    text-align: center;
+    // height: 8rem;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+    font-family: acme, arial, helvetica, sans-serif;
+
+    
+    // border: 1px solid crimson;
+    margin: 8rem 0;
+    color: #000;
+    border-radius: 2rem;
+  }
+}
